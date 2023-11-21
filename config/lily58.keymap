@@ -55,7 +55,7 @@
 //|---------|----------|----------|-----------|-----------|-----------||                       ||--------|-----------|------------|----------|--------------|---------|
    &kp CAPS   &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &td MINUS G                           &kp M    &hm LSHFT N &hm RCTRL E  &hm RALT I &hm LGUI O     &kp SQT
 //|---------|----------|----------|-----------|-----------|---------------|--------|| ||--------|--------|-----------|------------|----------|--------------|---------|
-   &kp LSHFT &kp Z      &kp X      &kp C       &kp D       &td LS(MINUS) V &kp LBKT     &kp RBKT &kp K    &kp H       &td LT COMMA &td GT DOT &td EQUAL FSLH &kp RSHFT
+   &kp LSHFT &kp Z      &kp X      &kp C       &td PLUS D   &td LS(MINUS) V &kp LBKT     &kp RBKT &kp K    &kp H       &td LT COMMA &td GT DOT &td EQUAL FSLH &kp RSHFT
 //|---------|----------|----------|-----------|-----------|---------------|--------|| ||--------|--------|-----------|------------|----------|--------------|---------|
                                    &kp LPAR    &kp LGUI    &lt 3 SPACE     &lt 2 TAB    &kp RET  &kp BSPC &lt 1 GRAVE &kp RPAR
 //                                |-----------|-----------|---------------|--------|| ||--------|--------|-----------|------------|
