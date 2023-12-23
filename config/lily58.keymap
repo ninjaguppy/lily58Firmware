@@ -110,11 +110,11 @@
 //                     |      |      |      |        |  |       |      |       |       |
             label = "Navigation";
             bindings = <
-   &trans    &trans       &trans   &trans   &trans   &trans                           &trans      &trans    &trans    &trans    &trans    &trans
-   &trans    &trans       &trans   &trans   &trans   &trans                           &trans      &trans    &trans    &trans    &trans    &trans
-   &trans    &trans       &trans   &trans   &trans   &trans                           &kp LEFT    &kp DOWN  &kp UP    &KP RIGHT &trans    &trans
-   &trans    &trans       &trans   &trans   &trans   &trans    &LG(LS(TAB)) &LG(TAB)  &trans      &trans    &trans    &trans    &trans    &trans
-                                   &trans   &trans   &trans    &trans       &trans    &trans      &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans                                 &trans      &trans    &trans    &trans    &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans                                 &trans      &trans    &trans    &trans    &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans                                 &kp LEFT    &kp DOWN  &kp UP    &KP RIGHT &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans    &kp LG(LS(TAB)) &kp LG(TAB)  &trans      &trans    &trans    &trans    &trans    &trans
+                                   &trans   &trans   &trans    &trans          &trans       &trans      &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
