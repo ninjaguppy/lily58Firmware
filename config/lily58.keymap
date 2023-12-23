@@ -51,20 +51,20 @@
 //|---------|----------|----------|-----------|-----------|-----------||                       ||--------|-----------|------------|----------|--------------|---------|
    &kp ESC   &kp N1     &kp N2     &kp N3      &kp N4      &kp N5                                &kp N6   &kp N7      &kp N8       &kp N9     &kp N0         &kp GRAVE
 //|---------|----------|----------|-----------|-----------|-----------||                       ||--------|-----------|------------|----------|--------------|---------|
-   &kp TAB   &kp Q      &kp W      &kp F       &kp P       &td CARET B                           &kp J    &kp L       &kp U        &kp Y      &kp SEMI       &kp BSLH
+   &kp TAB   &kp Q      &kp W      &kp E       &kp R       &td CARET T                           &kp Y    &kp U       &kp I        &kp O      &kp P          &kp BSLH
 //|---------|----------|----------|-----------|-----------|-----------||                       ||--------|-----------|------------|----------|--------------|---------|
-   &kp CAPS   &hm LGUI A &hm LALT R &hm LCTRL S &hm LSHFT T &td MINUS G                           &kp M    &hm LSHFT N &hm RCTRL E  &hm RALT I &hm LGUI O     &kp SQT
+   &kp CAPS  &hm LGUI A &hm LALT S &hm LCTRL D &hm LSHFT F &td MINUS G                           &kp H    &hm LSHFT J &hm RCTRL K  &hm RALT L &hm LGUI SEMI &kp SQT
 //|---------|----------|----------|-----------|-----------|---------------|--------|| ||--------|--------|-----------|------------|----------|--------------|---------|
-   &kp LSHFT &kp Z      &kp X      &kp C       &td PLUS D   &td LS(MINUS) V &kp LBKT     &kp RBKT &kp K    &kp H       &td LT COMMA &td GT DOT &td EQUAL FSLH &kp RSHFT
+   &kp LSHFT &kp Z      &kp X      &kp C       &td PLUS V   &td LS(MINUS) V &kp LBKT    &kp RBKT &kp N    &kp M       &td LT COMMA &td GT DOT &td EQUAL FSLH &kp RSHFT
 //|---------|----------|----------|-----------|-----------|---------------|--------|| ||--------|--------|-----------|------------|----------|--------------|---------|
-                                   &kp LPAR    &kp LGUI    &lt 3 SPACE     &lt 2 TAB    &kp RET  &kp BSPC &lt 1 GRAVE &kp RPAR
+                                   &kp LPAR    &kp RIGHT    &lt 3 SPACE     &lt 2 TAB   &kp RET  &kp BSPC &lt 1 DEL   &kp RPAR
 //                                |-----------|-----------|---------------|--------|| ||--------|--------|-----------|------------|
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
         };
 
-        symbols_layer {
+        symbols_layer
 // ------------------------------------------------------------------------------------------------------------
 // | BTCLR | BT1 | BT2 |  BT3 |  BT4 |  BT5 |                   |      |       |       |      |       |       |
 // |  F1   |  F2 |  F3 |  F4  |  F5  |  F6  |                   |  F7  |  F8   |  F9   |  F10 |  F11  |  F12  |
@@ -108,13 +108,13 @@
 // |   F1  |  F2 |  F3 |  F4  |  F5  |  F6  |                   |      |   <-  |   v   |  ^   |  ->   |       |
 // |   F7  |  F8 |  F9 |  F10 |  F11 |  F12 |        |  |       |  +   |   -   |   =   |  [   |   ]   |   \   |
 //                     |      |      |      |        |  |       |      |       |       |
-            label = "nav";
+            label = "Navigation";
             bindings = <
-   &trans    &trans       &trans   &trans   &trans   &trans                       &trans      &trans    &trans    &trans   &trans    &trans
-   &trans    &kp C_VOL_UP &kp C_PP &kp LPAR &kp RPAR &kp CARET                    &kp MINUS   &kp N7    &kp N8    &kp N9   &kp FSLH  &trans
-   &trans    &kp C_VOL_DN &kp Y    &kp LBRC &kp RBRC &kp MINUS                    &kp PLUS    &kp N4    &kp N5    &kp N6   &kp STAR  &trans
-   &trans    &kp Z        &kp X    &kp LBKT &kp RBKT &kp UNDER &trans   &trans    &kp AMPS    &kp N1    &kp N2    &kp N3   &kp EQUAL &kp COMMA
-                                   &trans   &trans   &trans    &trans   &kp N0    &kp BSPC    &kp DOT   &trans
+   &trans    &trans       &trans   &trans   &trans   &trans                           &trans      &trans    &trans    &trans    &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans                           &trans      &trans    &trans    &trans    &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans                           &kp LEFT    &kp DOWN  &kp UP    &KP RIGHT &trans    &trans
+   &trans    &trans       &trans   &trans   &trans   &trans    &LG(LS(TAB)) &LG(TAB)  &trans      &trans    &trans    &trans    &trans    &trans
+                                   &trans   &trans   &trans    &trans       &trans    &trans      &trans    &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
