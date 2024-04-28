@@ -69,11 +69,11 @@
 
             label = "Symbols";
             bindings = <
-&trans     &trans    &trans    &trans        &trans      &trans                       &trans     &trans     &trans           &trans    &trans    &trans
-&kp GRAVE  &kp EXCL  &kp AT    &kp HASH      &kp DOLLAR  &kp PRCNT                    &kp CARET  &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
-&trans     &kp LGUI  &kp LALT  &hm LCTRL F3  &kp LSHIFT  &kp MINUS                    &kp LBRC   &kp LPAR   &kp RPAR         &kp RBRC  &kp BSLH  &trans
-&trans     &trans    &trans    &trans        &kp PLUS    &kp        &trans    &trans  &trans     &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
-                               &trans        &trans      &trans     &trans    &trans  &trans     &trans     &trans
+&trans     &trans    &trans    &trans        &trans      &trans                                                       &trans         &trans     &trans           &trans    &trans    &trans
+&kp GRAVE  &kp EXCL  &kp AT    &kp HASH      &kp DOLLAR  &kp PRCNT                                                    &kp CARET      &kp AMPS   &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp TILDE
+&trans     &kp LGUI  &kp LALT  &hm LCTRL F3  &kp LSHIFT  &kp MINUS                                                    &kp LBRC       &kp LPAR   &kp RPAR         &kp RBRC  &kp BSLH  &trans
+&trans     &trans    &trans    &trans        &kp PLUS    &kp LG(PLUS)  &kp LG(LEFT_BRACKET)    &kp LG(RIGHT_BRACKET)  &kp LG(MINUS)  &kp MINUS  &kp KP_PLUS      &kp LBRC  &kp RBRC  &kp PIPE
+                               &trans        &trans      &trans        &trans                  &trans                 &trans         &trans     &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
